@@ -1,3 +1,10 @@
+Addendum, 2017: I wrote this as a final project for my Intro to CS class at Carleton
+College in 2012. Looking back I see a number of things that should change, but I'm
+not sure the world really needs a TKinter Boggle implementation at the moment. That
+being said, it is probably the most thoroughly (overly?) documented such program, so
+maybe someone will find it of use.                                              --JS
+
+	
 	___  ____ ____ ____ _    ____ 
 	|__] |  | | __ | __ |    |___ 
 	|    |__| |__] |__] |___ |___ 
@@ -36,7 +43,7 @@ Construction:
 Current Status:
 	As of right now, the game runs just fine. I would like to improve the oppo-
 	nent AI at some point to make it more believable - for instance force it to
-	usually pick 3 letter words over longer ones from the list. Right now its 
+	usually pick 3 letter words over longer ones from the list. Right now it's 
 	just as likely to pick a 16 letter word as it is a 3 letter one. Also, 
 	there's a small non-fatal bug when quiting the application that causes 
 	Tkinter to complain, but I think I need to learn more about GUIs to deal
